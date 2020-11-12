@@ -1,1 +1,1 @@
-atom . index.html css/main.css js/main.js
+atom . index.html css/main.css js/main.js error.html
