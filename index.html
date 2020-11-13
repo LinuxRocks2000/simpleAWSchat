@@ -1,13 +1,26 @@
-
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
         <title>Simple "chat" made using AWS</title>
         <link rel="stylesheet" href="css/main.css">
+        <script src="https://sdk.amazonaws.com/js/aws-sdk-2.7.16.min.js"></script>
     </head>
     <body>
-
+        <div id="threadview-outer" class="hidden">
+            <div id="threadview">
+                <p id="subject"></p>
+                <ul id="comments"></ul>
+            </div>
+        </div>
+        <div id="grid">
+            <p id="threadlist-title">Threads</p>
+            <ul id="threadlist">
+            </ul>
+            <p id="messageboard-title">Message Board</p>
+            <ul id="messageboard">
+            </ul>
+        </div>
         <script type="text/javascript" src="js/main.js"></script>
     </body>
 </html>
